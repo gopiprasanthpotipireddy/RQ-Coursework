@@ -1,0 +1,38 @@
+# This file is in YAML format.  You must ensure that the punctuation
+# and whitespace is preserved.  Do NOT use Windows Notepad to edit this
+# file; use a real programming editor like Notepad++ instead.
+
+# Write your group name exactly as it appears on Canvas.
+group: 
+
+# Write the names of your group members as a comma-separated list
+# within the square brackets.
+members: []
+
+# Write your general topic.  
+topic: Covid-19
+
+# Write your research question, following one of the three allowed templates.
+# Be sure your question is all on one line.
+RQ: Is there a difference in number of covid deaths per 100000 confirmed cases among all the states of USA?
+
+# Write the null hypothesis for your research question, again ensuring it is all on one line.
+null-hypothesis: There is no significant difference in number of covid deaths per 100000 confirmed cases among all the states of USA.
+
+# Write the alternative hypothesis for your research question, again ensuring it is all on one line.
+alt-hypothesis: There is a significant difference in number of covid deaths per 100000 confirmed among all the states of USA.
+
+# Write the dataset URL.  Be sure it has the allowed hostname.
+dataset-url: https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
+
+# Paste the output of loading your dataset into R, and executing the
+# colnames() function, into the space below the `columns: |` line.
+# Put two spaces *before* every line you pasted.
+columns: |
+   > covid_data<- read.csv("/Users/potipirg/Desktop/Course_Work/R&D Question Data/RQ-Proportions/1_county_level_confirmed_cases.csv")
+   > colnames(covid_data)
+   [1] "last_update"          "location_type"        "state"                "county_name"         
+   [5] "county_name_long"     "fips_code"            "lat"                  "lon"                 
+   [9] "NCHS_urbanization"    "total_population"     "confirmed"            "confirmed_per_100000"
+   [13] "deaths"               "deaths_per_100000"               "deaths_per_100000" 
+  

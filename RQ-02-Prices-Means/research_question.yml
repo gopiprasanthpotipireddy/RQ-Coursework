@@ -1,0 +1,34 @@
+# This file is in YAML format.  You must ensure that the punctuation
+# and whitespace is preserved.  Do NOT use Windows Notepad to edit this
+# file; use a real programming editor like Notepad++ instead.
+
+# Write your group name exactly as it appears on Canvas.
+group: 
+
+# Write the names of your group members as a comma-separated list
+# within the square brackets.
+members: []
+
+# Write your general topic.  
+topic: Retail Prices.
+
+# Write your research question, following one of the three allowed templates.
+# Be sure your question is all on one line.
+RQ: Is there a difference in the mean prices of Onion and Rice Commodities in India From 1997 to 2015?
+
+# Write the null hypothesis for your research question, again ensuring it is all on one line.
+null-hypothesis: There is no significant differences between mean prices of Onion and Rice Commodities in India From 1997 to 2015.
+
+# Write the alternative hypothesis for your research question, again ensuring it is all on one line.
+alt-hypothesis: There is a significant difference between mean prices of Onion and Rice Commodities in India From 1997 to 2015.
+
+# Write the dataset URL.  Be sure it has the allowed hostname.
+dataset-url: https://data.world/rajanm/india-retail-prices-of-key-commodities-from-1997-to-2015
+
+# Paste the output of loading your dataset into R, and executing the
+# colnames() function, into the space below the `columns: |` line.
+# Put two spaces *before* every line you pasted.
+columns: |
+  > retail_prices<- read.csv("India_Key_Commodities_Retail_Prices_1997_2015.csv")
+  > colnames(retail_prices)
+  [1] "Date"         "Centre"       "Commodity"    "Price.per.Kg" "Region"       "Country" 
