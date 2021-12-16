@@ -1,4 +1,4 @@
-hapiness_data<-read.csv(file.choose())
+hapiness_data<-read.csv("World-Happiness-2015-2019.csv")
 names(hapiness_data)
 
 
@@ -9,8 +9,7 @@ shapiro.test(hapiness_data$Health_life_expectancy)
 #Corelation test
 kend_cor<-cor.test(hapiness_data$Generosity,hapiness_data$Health_life_expectancy,method = "kendall")
 spear_cor<-cor.test(hapiness_data$Generosity,hapiness_data$Health_life_expectancy,method = "spearman")
-pearson_cor<-cor.test(hapiness_data$Generosity,hapiness_data$Health_life_expectancy,method = "pearson")
 
 kend_cor
 spear_cor
-pearson_cor
+

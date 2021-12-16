@@ -1,4 +1,5 @@
-retail_prices<-read.csv(file.choose())
+library(tidyverse)
+retail_prices<-read.csv("India_Key_Commodities_Retail_Prices_1997_2015.csv")
 names(retail_prices)
 levels(factor(retail_prices$Commodity))
 

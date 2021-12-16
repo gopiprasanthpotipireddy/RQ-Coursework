@@ -34,4 +34,5 @@ columns: |
   [1] "Overall.rank"              "Year"                      "Country"                  
   [4] "Region"                    "Score"                     "GDP"                      
   [7] "Social_Support"            "Health_life_expectancy"    "Freedom_to_choices"       
-  [10] "Generosity"                "Perceptions_of_corruption"  
+  [10] "Generosity"                "Perceptions_of_corruption"
+

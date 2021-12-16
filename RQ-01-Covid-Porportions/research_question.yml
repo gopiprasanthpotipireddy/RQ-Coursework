@@ -34,5 +34,5 @@ columns: |
    [1] "last_update"          "location_type"        "state"                "county_name"         
    [5] "county_name_long"     "fips_code"            "lat"                  "lon"                 
    [9] "NCHS_urbanization"    "total_population"     "confirmed"            "confirmed_per_100000"
-   [13] "deaths"               "deaths_per_100000"               "deaths_per_100000" 
-  
+   [13] "deaths"               "deaths_per_100000"               "deaths_per_100000"
+   

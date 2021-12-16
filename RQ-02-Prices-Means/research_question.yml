@@ -32,3 +32,4 @@ columns: |
   > retail_prices<- read.csv("India_Key_Commodities_Retail_Prices_1997_2015.csv")
   > colnames(retail_prices)
   [1] "Date"         "Centre"       "Commodity"    "Price.per.Kg" "Region"       "Country" 
+  
